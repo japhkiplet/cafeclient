@@ -1,0 +1,118 @@
+.menu-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+   
+}
+
+.menu{
+    position: relative;
+    width: 100vw;
+    margin-top: 60px;
+    padding: 20px;   
+
+}
+
+.menu > h1{
+    text-align: center;
+    color: goldenrod;
+    padding: 10px;
+    border-bottom: 1px solid brown;
+    border-radius: 50px;
+}
+
+.menuwrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    border: 2px solid rgb(7, 7, 75);
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, rgba(255,255,255,0.7), transparent), url(/src/images/4.jpg);
+    /* opacity: .9; */
+}
+
+.menu_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.menu_descriptions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    width: 380px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0,0, .5);
+    background-color: #6D4C41;
+    transition: transform .3s;
+
+}
+.menu_descriptions:hover{
+    transform: scale(1.05);
+}
+
+.menu_descriptions  h2{
+    padding: 10px;
+    font-size: 20px;
+    color: #8a0f0f;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.menu_descriptions p{
+    font-weight: 400;
+    color: #e7e4e4;
+}
+
+.menu_descriptions h4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid red;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(0, 0, 0);
+}
+
+.desc{
+    text-align: center;
+    padding: 5px;
+}
+.desc > p{
+    color: red;
+}
+
+@media only screen and (max-width: 900px){
+    .menuwrapper{
+        display: flex;
+        flex-direction: column;
+       
+    
+    }
+
+    .menu_descriptions{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 20vh;
+        width: 380px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0,0, .5);
+        background-color: #6D4C41;
+        transition: transform .3s;
+    
+    }
+    .menu_descriptions:hover{
+        transform: scale(1.05);
+    }
+}
