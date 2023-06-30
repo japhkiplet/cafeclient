@@ -1,0 +1,46 @@
+/* --footer page */
+
+.blog__footer{
+    background-color: hsl(240, 10%, 16%);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top-right-radius: 100px;
+}
+.blog__footer p{
+    color: white;
+    padding: 20px;
+}
+
+
+.blog__footer .container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+.footer__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer-products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer__content a{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    border-radius: 50%;
+    color: white;
+}

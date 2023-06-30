@@ -2,7 +2,7 @@ import {Link, useNavigate} from 'react-router-dom'
 import { FaHamburger, FaSignOutAlt } from "react-icons/fa"
 import { useContext, useState } from "react";
 import  { Context } from '../context/Context'
-
+import './header.css'
 
 
 const Header = () => {
