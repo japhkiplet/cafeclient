@@ -1,4 +1,4 @@
-import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './pages/Home'
@@ -10,7 +10,7 @@ import NotFound from './pages/NotFound'
 import Order from './pages/Order'
 import Booking from './pages/Booking'
 import Menu from './pages/Menu'
-import './app.css'
+import './app.css';
 import { useContext } from "react";
 import  { Context } from './context/Context'
 
