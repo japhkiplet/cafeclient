@@ -10,7 +10,6 @@ import NotFound from './pages/NotFound'
 import Order from './pages/Order'
 import Booking from './pages/Booking'
 import Menu from './pages/Menu'
-// import './App.css';
 import { useContext } from "react";
 import  { Context } from './context/Context'
 
