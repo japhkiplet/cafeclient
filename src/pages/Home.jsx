@@ -1,4 +1,4 @@
-import './Home.css'
+import './home.css'
 import img from '../images/feature-image.webp'
 import { Link } from 'react-router-dom'
 
