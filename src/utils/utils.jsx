@@ -1,1 +1,1 @@
-export const ApiDomain = 'https://kyucafeapi.azurewebsites.net/';
+export const ApiDomain = 'https://japheapp.azurewebsites.net/';
